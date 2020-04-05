@@ -66,4 +66,4 @@ $ npm run deploy
 ```
 
 - 9) Optional (add custom domain redirect)
-* make a new file and call it CNAME and the redirect website address: https://domain_name
+* make a new file in public/ and name it CNAME and add the redirect website address: https://domain_name

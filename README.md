@@ -45,21 +45,22 @@ $ npm i -D gh-pages
   "scripts":{
     ...,
     "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b master -d build",
     ...,
   }
   ...,
 }
 ```
 
-- 7) Deploy website to Github pages
-```shell
-$ npm run deploy
-```
-
-- 8) Update Github repo
+- 7) Update Github repo
 ```shell
 $ git add .
 $ git commit -m "deploy website"
 $ git push
+```
+
+- 8) Create a new branch and deploy website to Github pages
+```shell
+$ git checkout -b source
+$ npm run deploy
 ```

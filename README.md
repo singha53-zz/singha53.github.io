@@ -64,3 +64,6 @@ $ git push
 $ git checkout -b source
 $ npm run deploy
 ```
+
+- 9) Optional (add custom domain redirect)
+* make a new file and call it CNAME and the redirect website address: https://domain_name
